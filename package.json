@@ -1,0 +1,37 @@
+{
+  "name": "conventions",
+  "description": "Conventions for toolkit applications and frameworks.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/conventions",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/conventions",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/conventions/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "conventions"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.9"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "minimal",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
