@@ -8,6 +8,7 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/conventions/issues"
   },
+  "private": true,
   "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
@@ -23,7 +24,7 @@
   },
   "verb": {
     "toc": false,
-    "layout": "minimal",
+    "layout": false,
     "tasks": [
       "readme"
     ],
